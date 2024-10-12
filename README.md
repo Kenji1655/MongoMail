@@ -67,16 +67,6 @@ Este projeto tem como objetivo desenvolver uma aplicação de chat com interface
 
 Certifique-se de que o MongoDB está rodando e configurado corretamente no seu sistema.
 
-## Uso
-
-1. Para iniciar o projeto, execute:
-
-    ```bash
-    python main.py
-    ```
-
-2. Siga as instruções fornecidas no console para interagir com o sistema.
-
 ## Estrutura do Projeto
 
 O projeto é organizado nos seguintes diretórios e arquivos principais:
