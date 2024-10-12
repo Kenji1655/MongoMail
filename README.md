@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo desenvolver uma aplicação de chat com interface de linha de comando (CLI), utilizando Python ou Java, com foco na segurança das mensagens trocadas entre dois usuários. A segurança será garantida por meio da utilização de criptografia simétrica, assegurando que as mensagens estejam protegidas durante o armazenamento e a troca. O projeto explora a implementação de criptografia, armazenamento seguro e boas práticas para garantir a confidencialidade das comunicações.
+Este projeto tem como objetivo desenvolver uma aplicação de chat com interface de linha de comando (CLI), utilizando Python, com foco na segurança das mensagens trocadas entre dois usuários. A segurança será garantida por meio da utilização de criptografia simétrica, assegurando que as mensagens estejam protegidas durante o armazenamento e a troca. O projeto explora a implementação de criptografia, armazenamento seguro e boas práticas para garantir a confidencialidade das comunicações.
 
 ## Funcionalidades Principais
 
