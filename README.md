@@ -2,12 +2,12 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo desenvolver uma aplicação de chat com interface de linha de comando (CLI), utilizando Python ou Java, com foco na segurança das mensagens trocadas entre dois usuários, Alice e Bob. A segurança será garantida por meio da utilização de criptografia simétrica, assegurando que as mensagens estejam protegidas durante o armazenamento e a troca. O projeto explora a implementação de criptografia, armazenamento seguro e boas práticas para garantir a confidencialidade das comunicações.
+Este projeto tem como objetivo desenvolver uma aplicação de chat com interface de linha de comando (CLI), utilizando Python ou Java, com foco na segurança das mensagens trocadas entre dois usuários. A segurança será garantida por meio da utilização de criptografia simétrica, assegurando que as mensagens estejam protegidas durante o armazenamento e a troca. O projeto explora a implementação de criptografia, armazenamento seguro e boas práticas para garantir a confidencialidade das comunicações.
 
 ## Funcionalidades Principais
 
 ### 1. Estabelecimento da Chave Simétrica
-- **Chave Secreta Compartilhada**: Alice e Bob concordam em utilizar uma chave secreta baseada no padrão *PBE-PKCS* (Password-Based Encryption).
+- **Chave Secreta Compartilhada**: Usuarios concordam em utilizar uma chave secreta baseada no padrão *PBE-PKCS* (Password-Based Encryption).
 - **Segurança da Chave**: A chave **não será armazenada** em nenhum local, garantindo que a segurança dependa exclusivamente da confidencialidade da chave compartilhada.
 
 ### 2. Criptografia das Mensagens
@@ -23,29 +23,70 @@ Este projeto tem como objetivo desenvolver uma aplicação de chat com interface
 - **Boas Práticas de Segurança**: Além da criptografia, serão aplicadas medidas de segurança para prevenir vulnerabilidades, como o armazenamento inadequado de chaves e o acesso não autorizado às mensagens.
 
 ## Ferramentas e Tecnologias
-- **Python/Java**: Linguagens de programação utilizadas para o desenvolvimento da aplicação.
+- **Python**: Linguagens de programação utilizadas para o desenvolvimento da aplicação.
 - **MongoDB**: Banco de dados utilizado para o armazenamento das mensagens.
 - **PyMongo**: Biblioteca para interação com o MongoDB (no caso da implementação em Python).
 - **PBE-PKCS**: Padrão de criptografia utilizado para gerar e manejar a chave simétrica.
 
-## Como Usar
+# Instalação
 
-1. **Clone o Repositório**: 
-   ```bash
-   git clone https://github.com/Kenji1655/MongoMail.git
-   ```
+1. Clone o repositório:
 
-2. **Instale as Dependências (Python)**:
-   ```bash
-   pip install pymongo
-   ```
+    ```bash
+    git clone https://github.com/Kenji1655/MongoMail.git
+    cd MongoMail
+    ```
 
-3. **Execute a Aplicação**:
-   - Certifique-se de que o MongoDB esteja rodando e execute a aplicação por meio da linha de comando.
+2. Crie um ambiente virtual:
 
-4. **Envie e Receba Mensagens**: Utilize os comandos disponíveis para Alice e Bob trocarem mensagens de forma segura.
+    ```bash
+    python -m venv venv
+    ```
+
+3. Ative o ambiente virtual:
+
+    - No Windows:
+    
+        ```bash
+        .\venv\Scripts\activate
+        ```
+
+    - No Unix ou MacOS:
+    
+        ```bash
+        source venv/bin/activate
+        ```
+
+4. Instale as dependências:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Configuração
+
+Certifique-se de que o MongoDB está rodando e configurado corretamente no seu sistema.
+
+## Uso
+
+1. Para iniciar o projeto, execute:
+
+    ```bash
+    python main.py
+    ```
+
+2. Siga as instruções fornecidas no console para interagir com o sistema.
+
+## Estrutura do Projeto
+
+O projeto é organizado nos seguintes diretórios e arquivos principais:
+
+- `main.py`: O ponto de entrada principal do aplicativo.
+- `database/`: Contém os arquivos relacionados ao banco de dados MongoDB.
+    - `entities.py`: Define as entidades do banco de dados.
+    - `mongohandler.py`: Manipula as operações com o MongoDB.
 
 ## Licença
-Este projeto é distribuído sob a licença MIT.
 
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ---

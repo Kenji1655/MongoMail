@@ -1,0 +1,56 @@
+# Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.egg-info/
+.installed.cfg
+*.eggs/
+
+# PyCharm
+.idea/
+.vscode/
+__pycache__/
+*.swp
+
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.virtualenv/
+.env
+
+# JetBrains IDEs
+.idea/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# AWS
+*.pem
+
+# MongoDB
+mongodb.log
