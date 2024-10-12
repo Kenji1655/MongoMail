@@ -1,4 +1,4 @@
-# Mini Projeto - Implementação de Chat Criptografado (Python/Java)
+# Mini Projeto - Implementação de Chat Criptografado (Python)
 
 ## Descrição do Projeto
 
